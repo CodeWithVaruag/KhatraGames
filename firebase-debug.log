@@ -1,0 +1,94 @@
+[debug] [2024-09-11T10:40:56.283Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T10:40:56.286Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gaura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-11T10:40:56.287Z] CLI Version:   13.16.0
+[debug] [2024-09-11T10:40:56.287Z] Platform:      win32
+[debug] [2024-09-11T10:40:56.287Z] Node Version:  v20.11.0
+[debug] [2024-09-11T10:40:56.287Z] Time:          Wed Sep 11 2024 16:25:56 GMT+0545 (Nepal Time)
+[debug] [2024-09-11T10:40:56.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-11T10:40:56.382Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T10:40:56.382Z] > authorizing via signed-in user (gauravdahal321@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gaura
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-11T10:41:02.294Z] Using project from CLI flag: khatragames
+[debug] [2024-09-11T10:41:02.295Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khatragames [none]
+[debug] [2024-09-11T10:41:02.925Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khatragames 200
+[debug] [2024-09-11T10:41:02.925Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khatragames {"projectId":"khatragames","projectNumber":"200940258598","displayName":"khatra Games","name":"projects/khatragames","resources":{"hostingSite":"khatragames"},"state":"ACTIVE","etag":"1_6afa94e4-fcf0-486c-840f-04f2e39d5eb0"}
+[info] i  Using project khatragames (khatra Games) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-11T10:41:02.931Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khatragames [none]
+[debug] [2024-09-11T10:41:03.252Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khatragames 200
+[debug] [2024-09-11T10:41:03.253Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khatragames {"projectId":"khatragames","projectNumber":"200940258598","displayName":"khatra Games","name":"projects/khatragames","resources":{"hostingSite":"khatragames"},"state":"ACTIVE","etag":"1_6afa94e4-fcf0-486c-840f-04f2e39d5eb0"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-09-11T10:46:28.443Z] ----------------------------------------------------------------------
+[debug] [2024-09-11T10:46:28.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gaura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-11T10:46:28.450Z] CLI Version:   13.16.0
+[debug] [2024-09-11T10:46:28.450Z] Platform:      win32
+[debug] [2024-09-11T10:46:28.451Z] Node Version:  v20.11.0
+[debug] [2024-09-11T10:46:28.451Z] Time:          Wed Sep 11 2024 16:31:28 GMT+0545 (Nepal Time)
+[debug] [2024-09-11T10:46:28.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-11T10:46:28.596Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-11T10:46:28.597Z] > authorizing via signed-in user (gauravdahal321@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gaura
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-11T10:46:36.517Z] Using project from CLI flag: khatragames
+[debug] [2024-09-11T10:46:36.519Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khatragames [none]
+[debug] [2024-09-11T10:46:37.908Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khatragames 200
+[debug] [2024-09-11T10:46:37.909Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khatragames {"projectId":"khatragames","projectNumber":"200940258598","displayName":"khatra Games","name":"projects/khatragames","resources":{"hostingSite":"khatragames"},"state":"ACTIVE","etag":"1_6afa94e4-fcf0-486c-840f-04f2e39d5eb0"}
+[info] i  Using project khatragames (khatra Games) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-11T10:46:37.914Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khatragames [none]
+[debug] [2024-09-11T10:46:39.089Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khatragames 200
+[debug] [2024-09-11T10:46:39.090Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khatragames {"projectId":"khatragames","projectNumber":"200940258598","displayName":"khatra Games","name":"projects/khatragames","resources":{"hostingSite":"khatragames"},"state":"ACTIVE","etag":"1_6afa94e4-fcf0-486c-840f-04f2e39d5eb0"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
