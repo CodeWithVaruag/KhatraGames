@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="/manifest.json">
   <meta name="keywords" content="games, online games, play games, gaming, interactive games">
-  <meta name="description" content="Khatra Gmaes is a collection of fun, exciting, and challenging games that you can play online or even download and enjoy offline.">
+  <meta name="description"
+    content="Khatra Games is a collection of fun, exciting, and challenging games that you can play online or even download and enjoy offline.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Khatra Games">
   <link rel="canonical" href="https://www.khatragames.app">
+  <title>Khatra Games</title>
+  <link rel="stylesheet" href="style.css">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+  <!-- Bootstrap Warning Alert -->
+  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong> Warning !</strong> Only optimized for laptops and PCs. Doesn't work well on phones..
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
   
 
 
 
 
-  <title>khatra Games</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
   <!-- About Section -->
   <section id="about">
-    <div class="about-text">
-      <h2>Khatra Games</h2>
-      <p>At Khatra Games, we bring you an amazing collection of fun, exciting, and challenging games that you can play online or even download and enjoy offline. Whether you're into action-packed adventures, puzzles, or strategy games, Khatra Games has something for every kind of gamer. Jump in, explore, and level up your gaming experience with us!</p>
-    </div>
     <div class="about-image">
       <img src="/luffy.png" alt="Luffy Logo" />
-      <!-- Replace the URL with the real logo URL -->
+    </div>
+    <div class="about-text">
+      <h2>Khatra Games</h2>
+      <p> At Khatra Games, we bring you an amazing collection of fun, exciting, and challenging games that you can play
+        online or even download and enjoy offline. Whether you're into action-packed adventures, puzzles, or strategy
+        games, Khatra Games has something for every kind of gamer. Jump in, explore, and level up your gaming experience
+        with us!</p>
     </div>
   </section>
 
@@ -37,25 +62,25 @@
     <!-- Cards will be dynamically inserted here by JavaScript -->
   </div>
 
-  <!-- This is where the game will be displayed -->
-  <div id="game-container" style="display: none;">
+  <!-- Full Screen Game Display Area -->
+  <div id="game-container">
     <button id="close-game" onclick="closeGame()">X</button>
     <iframe id="game-frame" width="100%" height="600px" style="border: none;"></iframe>
   </div>
 
-  <!-- <button id="download-app">Download App</button> -->
-
-
   <!-- Footer -->
   <footer>
     <p>© 2024 Khatra Games. All rights reserved.</p>
-    <p>created by gaurav dahal<p>
+    <p>Created by Gaurav Dahal</p>
     <div class="footer-links">
-      <a href="#about">About Us</a> 
+      <a href="#about">About Us</a>
     </div>
-    <p>Credits: Special thanks to <a href="https://js13kgames.com" target="_blank">JS13K Games</a> and their amazing creators for the inspiration and resources provided for Khatra Games. Explore more at <a href="https://js13kgames.com" target="_blank">JS13K Games</a>.</p>
+    <p>Credits: Special thanks to <a href="https://js13kgames.com" target="_blank">JS13K Games</a> and their amazing
+      creators for the inspiration and resources provided for Khatra Games. Explore more at <a
+        href="https://js13kgames.com" target="_blank">JS13K Games</a>.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
